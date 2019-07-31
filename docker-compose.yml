@@ -49,8 +49,6 @@ services:
     container_name: payment-service
     restart: always
     build: ./payment-service
-    ports:
-      - "3002:3002"
 
 volumes:
   dbdata:
